@@ -6,7 +6,6 @@ html {
 	background-color: white;
 header {
 	padding: 1.5em 0 2em 0;
-	border-bottom: 3px solid #931420;
 	background-image: -moz-linear-gradient(
 	    30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
 	background-image: -webkit-linear-gradient(
