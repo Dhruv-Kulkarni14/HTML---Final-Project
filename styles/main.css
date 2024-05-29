@@ -76,3 +76,6 @@ header img {
     clear: both;
     display: block;
 }
+.slicknav_menu {
+		display: none;
+}
