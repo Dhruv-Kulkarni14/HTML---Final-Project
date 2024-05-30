@@ -10,7 +10,7 @@ body {
     font-size: 100%;
     width: 800px;
     margin: 0 auto;
-    border: 3px solid #f6623f;
+    border: 3px solid #800000;
     background-color: #fffded;
 }
 header {
@@ -58,7 +58,7 @@ header img {
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
-    background-color: #f6623f;
+    background-color: #800000;
     color: white;
     font-weight: bold;
 }
@@ -95,7 +95,7 @@ main p {
     margin-bottom: 20px;
 }
 footer {
-	background-color: #f6623f;
+	background-color: #800000;
 	clear: both;
 }
 footer p {
