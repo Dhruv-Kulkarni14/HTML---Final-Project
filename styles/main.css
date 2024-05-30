@@ -84,9 +84,13 @@ header img {
 .slicknav_menu {
 	display: none;
 }
-main h2 {
-	text-align: center;
-}
 main {
     padding: 20px;
+}
+main h2 {
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 20px;
 }
