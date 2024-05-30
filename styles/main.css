@@ -88,11 +88,8 @@ main h2 {
 	text-align: center;
 }
 footer {
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9em;
-    color: #555;
+	background-color: #931420;
+	clear: both
 }
 @media only screen and (max-width: 640px) {
 	aside h2 a{
