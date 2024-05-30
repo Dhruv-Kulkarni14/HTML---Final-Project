@@ -82,5 +82,8 @@ header img {
     display: block;
 }
 .slicknav_menu {
-		display: none;
+	display: none;
+}
+main h2 {
+	justify-content: center;
 }
