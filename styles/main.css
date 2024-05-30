@@ -84,8 +84,15 @@ header img {
 .slicknav_menu {
 	display: none;
 }
+main {
+	padding: 20px;
+}
 main h2 {
 	text-align: center;
+	margin-bottom: 10px;
+}
+main p {
+    margin-bottom: 20px;
 }
 footer {
 	background-color: #931420;
@@ -95,6 +102,7 @@ footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+	margin-top: 20px;
 }
 @media only screen and (max-width: 640px) {
 	aside h2 a{
