@@ -70,7 +70,7 @@ header h2, header h3 {
     float: left;
     margin-right: 20px;
     width: 150px;
-    height: 150px;
+    height: auto;
     object-fit: cover;
 }
 
