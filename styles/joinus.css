@@ -2,12 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
-header {
+header, footer {
     text-align: center;
     background-color: #f4f4f4;
     padding: 10px 0;
@@ -30,7 +27,6 @@ header h2, header h3 {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: center;
 }
 
 #nav_menu ul li {
@@ -49,43 +45,33 @@ header h2, header h3 {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    flex: 1; /* Ensures footer stays at the bottom */
+    margin: 20px auto; /* Center the container */
+    max-width: 1200px; /* Set a maximum width for the container */
+    overflow: hidden; /* Clear floats */
 }
 
 .team-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    max-width: 800px;
+    justify-content: center; /* Center align the content */
+    gap: 20px; /* Add spacing between items */
 }
 
 .team-member {
+    flex-basis: calc(50% - 20px); /* Each member takes up 50% of the container width with 20px gap */
     text-align: center;
-    flex: 1 1 45%; /* Two per row */
-    margin: 10px;
 }
 
 .team-image {
     width: 100%;
     height: auto;
-    max-width: 300px;
-    border-radius: 10px;
+    border-radius: 50%; /* Make the images circular */
 }
 
 .team-name {
     margin-top: 10px;
-    font-size: 1.2em;
-    font-weight: bold;
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #f4f4f4;
-    width: 100%;
+    margin-top: 20px; /* Add space between content and footer */
 }
