@@ -70,6 +70,11 @@ header h2, header h3 {
 
 .team-name {
     margin-top: 10px;
+    font-weight: bold;
+}
+
+.team-role {
+    margin-top: 5px;
 }
 
 footer {
