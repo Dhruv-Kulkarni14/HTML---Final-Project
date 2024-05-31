@@ -3,23 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>Projects - Bridge to Hope Foundation</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var currentYear = new Date().getFullYear();
+            document.getElementById("copyright").innerHTML = "&copy; " + currentYear + ", Bridge To Hope Foundation, Santa Clarita, CA 91381";
+        });
+    </script>
 </head>
 <body>
-    <div class="container">
+    <header>
+        <img src="images/bridge_to_hope.gif" alt="Bridge To Hope" height="70">
+        <h2>Bridge To Hope Foundation</h2>
+        <h3>Serving Underprivileged Communities</h3>
+    </header>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a>
+                <ul>
+                    <li><a href="#">Covid Safety Kit</a></li>
+                    <li><a href="#">Library Books</a></li>
+                    <li><a href="#">Free Tutoring</a></li>
+                </ul>
+            </li>
+            <li><a href="issues.html">Important Issues</a></li>
+            <li><a href="joinus.html">Join the Team</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <h2>Our Projects</h2>
         <div class="content">
             <section class="project">
                 <img src="project1.jpg" alt="Project 1" class="project-image">
                 <div class="project-text">
-                    <h2>Project 1</h2>
+                    <h2 id="project1">Project 1</h2>
                     <p>This is a brief description of Project 1.</p>
                 </div>
             </section>
             <section class="project">
                 <img src="project2.jpg" alt="Project 2" class="project-image">
                 <div class="project-text">
-                    <h2>Project 2</h2>
+                    <h2 id="project2">Project 2</h2>
                     <p>This is a brief description of Project 2.</p>
                 </div>
             </section>
@@ -33,6 +71,9 @@
                 <!-- Add more project links as needed -->
             </ul>
         </aside>
-    </div>
+    </main>
+    <footer>
+        <p id="copyright">&copy; 2016, Bridge To Hope Foundation, Santa Clarita, CA 91381</p>
+    </footer>
 </body>
 </html>
