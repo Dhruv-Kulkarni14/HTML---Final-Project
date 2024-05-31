@@ -67,11 +67,15 @@ header h2, header h3 {
     margin: 20px auto; /* Set top and bottom margins to 20px and left and right margins to auto */
     max-width: 1000px; /* Set maximum width of the container */
 }
+.join-team-title {
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Add space between the title and images */
+}
+
 .team-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center align the content */
-    gap: 20px; /* Add spacing between items */
+    justify-content: space-around; /* Distribute items evenly in two columns */
 }
 
 .team-member {
