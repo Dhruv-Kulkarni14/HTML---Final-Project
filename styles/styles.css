@@ -71,10 +71,6 @@ header h2, header h3 {
     margin-right: 20px;
 }
 
-.project-text {
-    overflow: hidden;
-}
-
 .project-text h3, .project-text p {
     margin: 0;
 }
