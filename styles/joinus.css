@@ -13,26 +13,29 @@ body {
     border: 3px solid #931420;
     background-color: #fffded;
 }
-header, footer {
-    text-align: center;
-    background-color: #f4f4f4;
-    padding: 10px 0;
-}
-
 header {
-    overflow: hidden; /* Clear floats */
-}
+	padding: 1.5em 0 2em 0;
+	background-image: -moz-linear-gradient(
+	    30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
+	background-image: -webkit-linear-gradient(
+	    30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
+	background-image: -o-linear-gradient(
+	    30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
+	background-image: linear-gradient(
+	    30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
 
+}
+header h2 {
+	font-size: 175%;
+	color: #ffffff;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
 header img {
-    max-width: 100%;
-    height: auto;
-    max-width: 200px; /* Adjust the maximum width of the header image */
-}
-
-header h2, header h3 {
-    display: inline;
-    margin: 0;
-    vertical-align: middle;
+	float: left;
+	padding: 0 30px;
 }
 
 #nav_menu ul {
