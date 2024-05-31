@@ -113,3 +113,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
+main h3 {
+    text-align: center;
+}
