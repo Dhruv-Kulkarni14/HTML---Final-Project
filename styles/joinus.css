@@ -44,37 +44,32 @@ header h2, header h3 {
     background-color: #555;
 }
 
-main {
-    padding: 20px;
+.container {
+    margin: 20px;
 }
 
-h2 {
-    text-align: center;
-    margin-top: 0;
-}
-
-.team-container {
+.team-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 .team-member {
-    width: 45%;
-    margin: 20px;
     text-align: center;
+    flex: 1 1 45%; /* Two per row */
 }
 
-.team-member img {
+.team-image {
     width: 100%;
     height: auto;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 5px;
+    max-width: 300px;
+    border-radius: 10px;
 }
 
-.team-member p {
+.team-name {
     margin-top: 10px;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
