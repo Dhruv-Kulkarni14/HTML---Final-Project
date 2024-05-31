@@ -69,15 +69,14 @@ header h2, header h3 {
 .project-image {
     float: left;
     margin-right: 20px;
-    width: 250px;  /* Adjust the width as needed */
-    height: auto;  /* Maintain aspect ratio */
-    object-fit: cover;
 }
 
 .project-text {
     overflow: hidden;
-    /* Adjust the margin-left to ensure it doesn't overlap with the image */
-    margin-left: 270px;  /* Adjust based on image width + margin */
+}
+
+.project-text h3, .project-text p {
+    margin: 0;
 }
 
 h2 {
