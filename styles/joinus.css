@@ -10,13 +10,22 @@ header, footer {
     padding: 10px 0;
 }
 
+header {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    overflow: hidden; /* Clear floats */
+}
+
 header img {
-    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
 }
 
 header h2, header h3 {
     display: inline;
     margin: 0;
+    vertical-align: middle;
 }
 
 #nav_menu, #mobile_menu {
