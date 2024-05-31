@@ -57,7 +57,7 @@ header h2, header h3 {
 .container {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 20px auto; /* Set top and bottom margins to 20px and left and right margins to auto */
 }
 .team-grid {
     display: flex;
