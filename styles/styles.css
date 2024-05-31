@@ -73,12 +73,16 @@ header h2, header h3 {
 
 .project-text {
     overflow: hidden;
-    border-bottom: 1px solid #800000; /* Add border below each project description */
     padding-bottom: 20px; /* Add some space between the border and the next section */
 }
 
 .project-text h3, .project-text p {
     margin: 0;
+}
+
+.project-text p {
+    border-bottom: 1px solid #ccc; /* Add border below each project description */
+    padding-bottom: 10px; /* Add some space between the border and the text */
 }
 
 h2 {
