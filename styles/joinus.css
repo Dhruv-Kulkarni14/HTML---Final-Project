@@ -54,11 +54,10 @@ header h2, header h3 {
 }
 
 .container {
-    margin: 20px auto; /* Center the container */
-    max-width: 1200px; /* Set a maximum width for the container */
-    overflow: hidden; /* Clear floats */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
 }
-
 .team-grid {
     display: flex;
     flex-wrap: wrap;
