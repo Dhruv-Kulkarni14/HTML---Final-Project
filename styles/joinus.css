@@ -40,6 +40,7 @@ header h2, header h3 {
 
 #nav_menu ul li {
     display: inline-block;
+    width: 20%;
 }
 
 #nav_menu ul li a {
