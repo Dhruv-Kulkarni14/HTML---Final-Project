@@ -45,8 +45,6 @@ header h2, header h3 {
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
     margin: 20px;
 }
 
