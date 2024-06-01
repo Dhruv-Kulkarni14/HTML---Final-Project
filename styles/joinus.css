@@ -1,12 +1,12 @@
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 html {
-	background-color: white;
+    background-color: white;
 }
 body {
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     width: 800px;
     margin: 0 auto;
@@ -14,48 +14,41 @@ body {
     background-color: #fffded;
 }
 header {
-	padding: 1.5em 0 2em 0;
-	background-image: -moz-linear-gradient(
-	    30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
-	background-image: -webkit-linear-gradient(
-	    30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
-	background-image: -o-linear-gradient(
-	    30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
-	background-image: linear-gradient(
-	    30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
-
+    padding: 1.5em 0 2em 0;
+    background-image: -moz-linear-gradient(
+        30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
+    background-image: -webkit-linear-gradient(
+        30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
+    background-image: -o-linear-gradient(
+        30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
+    background-image: linear-gradient(
+        30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
 }
 header h2 {
-	font-size: 175%;
-	color: #ffffff;
+    font-size: 175%;
+    color: #ffffff;
 }
 header h3 {
-	font-size: 130%;
-	font-style: italic;
+    font-size: 130%;
+    font-style: italic;
 }
 header img {
-	float: left;
-	padding: 0 30px;
-}
-
-#nav_menu ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	position: relative;
+    float: left;
+    padding: 0 30px;
 }
 #nav_menu ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center; /* Center the nav menu */
 }
 #nav_menu ul li {
-	float: left;
+    display: inline-block;
+    width: 18%; /* Adjust the width to fit five items properly */
 }
 #nav_menu ul li a {
     display: block;
-    width: 160px;
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
@@ -64,7 +57,7 @@ header img {
     font-weight: bold;
 }
 #nav_menu a.current {
-	color: yellow;
+    color: yellow;
 }
 #nav_menu ul ul {
     display: none;
@@ -72,10 +65,10 @@ header img {
     top: 100%;
 }
 #nav_menu ul ul li {
-	float: none;
+    float: none;
 }
 #nav_menu ul li:hover > ul {
-	display: block;
+    display: block;
 }
 #nav_menu > ul::after {
     content: "";
@@ -83,9 +76,8 @@ header img {
     display: block;
 }
 .slicknav_menu {
-	display: none;
+    display: none;
 }
-
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -94,35 +86,31 @@ header img {
 }
 .join-team-title {
     text-align: center; /* Center the text */
-    margin-bottom: 20px; /* Add space between the title and images */
+    margin: 20px auto; /* Add space between the title and images */
+    width: 100%;
 }
-
 .team-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; /* Distribute items evenly in two columns */
 }
-
 .team-member {
     flex-basis: calc(50% - 20px); /* Each member takes up 50% of the container width with 20px gap */
     text-align: center;
 }
-
 .team-image {
     width: 100%;
     height: auto;
     border-radius: 50%; /* Make the images circular */
 }
-
 .team-name {
     margin-top: 10px;
     font-weight: bold;
 }
-
 .team-role {
     margin-top: 5px;
 }
-
 footer {
     margin-top: 20px; /* Add space between content and footer */
+    text-align: center; /* Center the footer content */
 }
