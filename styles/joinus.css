@@ -37,18 +37,23 @@ header img {
     padding: 0 30px;
 }
 #nav_menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    text-align: center; /* Center the nav menu */
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
 }
 #nav_menu ul li {
-    display: inline-block;
-    width: 18%; /* Adjust the width to fit five items properly */
+	float: left;
 }
 #nav_menu ul li a {
     display: block;
+    width: 160px;
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
@@ -57,7 +62,7 @@ header img {
     font-weight: bold;
 }
 #nav_menu a.current {
-    color: yellow;
+	color: yellow;
 }
 #nav_menu ul ul {
     display: none;
@@ -65,10 +70,10 @@ header img {
     top: 100%;
 }
 #nav_menu ul ul li {
-    float: none;
+	float: none;
 }
 #nav_menu ul li:hover > ul {
-    display: block;
+	display: block;
 }
 #nav_menu > ul::after {
     content: "";
@@ -76,7 +81,7 @@ header img {
     display: block;
 }
 .slicknav_menu {
-    display: none;
+	display: none;
 }
 .container {
     display: flex;
