@@ -71,7 +71,7 @@ header h2, header h3 {
 }
 
 .project-text {
-    padding-bottom: 20px; /* Add some space between the border and the next section */
+    padding-bottom: 20px;
 }
 
 .project-text h3, .project-text p {
@@ -79,8 +79,8 @@ header h2, header h3 {
 }
 
 .project-text p {
-    border-bottom: 1px solid #ccc; /* Add border below each project description */
-    padding-bottom: 10px; /* Add some space between the border and the text */
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
 }
 
 h2 {
