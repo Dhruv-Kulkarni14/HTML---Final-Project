@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Important Issues - Bridge to Hope Foundation</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <link rel="stylesheet" href="styles/issues.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var currentYear = new Date().getFullYear();
+            document.getElementById("copyright").innerHTML = "&copy; " + currentYear + ", Bridge To Hope Foundation, Santa Clarita, CA 91381 &amp;#9829;";
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <img src="images/bridge_to_hope.gif" alt="Bridge To Hope" height="70">
+        <h1>Bridge To Hope Foundation</h1>
+        <h3>Serving Underprivileged Communities</h3>
+    </header>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a>
+                <ul>
+                    <li><a href="#">Covid Safety Kit</a></li>
+                    <li><a href="#">Library Books</a></li>
+                    <li><a href="#">Free Tutoring</a></li>
+                </ul>
+            </li>
+            <li><a href="issues.html">Important Issues</a></li>
+            <li><a href="joinus.html">Join the Team</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <section class="content">
+            <h2>Important Issues</h2>
+            <article>
+                <h3>Issue 1: Education Inequality</h3>
+                <p>Education inequality remains a major issue in many communities. Access to quality education is often limited by socioeconomic status, geographic location, and other factors.</p>
+                <p>Efforts to address education inequality include providing resources and support to underfunded schools, promoting policies that ensure equitable funding, and offering extracurricular programs that enhance learning opportunities.</p>
+            </article>
+            <article>
+                <h3>Issue 2: Health Disparities</h3>
+                <p>Health disparities are significant differences in health outcomes and access to healthcare among different population groups. These disparities are often influenced by social, economic, and environmental factors.</p>
+                <p>Addressing health disparities requires a multi-faceted approach, including increasing access to affordable healthcare, promoting healthy lifestyles, and addressing social determinants of health.</p>
+            </article>
+            <article>
+                <h3>Issue 3: Economic Inequality</h3>
+                <p>Economic inequality refers to the unequal distribution of income and wealth within a society. This issue affects individuals' ability to access basic necessities, education, and opportunities for upward mobility.</p>
+                <p>Solutions to economic inequality include advocating for fair wages, supporting job training programs, and implementing policies that promote economic justice and social mobility.</p>
+            </article>
+        </section>
+        <aside class="sidebar">
+            <h2>Related Resources</h2>
+            <ul>
+                <li><a href="files/sample.pdf">Download PDF</a></li>
+                <li><a href="audio/sample.mp3">Listen to Audio</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p id="copyright">&copy; 2016, Bridge To Hope Foundation, Santa Clarita, CA 91381 &amp;#9829;</p>
+    </footer>
+</body>
+</html>
