@@ -86,27 +86,27 @@ header img {
 .container {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px auto; /* Set top and bottom margins to 20px and left and right margins to auto */
-    max-width: 1000px; /* Set maximum width of the container */
+    margin: 20px auto;
+    max-width: 1000px;
 }
 .join-team-title {
-    text-align: center; /* Center the text */
-    margin: 20px auto; /* Add space between the title and images */
+    text-align: center;
+    margin: 20px auto;
     width: 100%;
 }
 .team-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Distribute items evenly in two columns */
+    justify-content: space-around;
 }
 .team-member {
-    flex-basis: calc(50% - 20px); /* Each member takes up 50% of the container width with 20px gap */
+    flex-basis: calc(50% - 20px);
     text-align: center;
 }
 .team-image {
     width: 100%;
     height: auto;
-    border-radius: 50%; /* Make the images circular */
+    border-radius: 50%;
 }
 .team-name {
     margin-top: 10px;
@@ -116,6 +116,6 @@ header img {
     margin-top: 5px;
 }
 footer {
-    margin-top: 20px; /* Add space between content and footer */
-    text-align: center; /* Center the footer content */
+    margin-top: 20px;
+    text-align: center;
 }
