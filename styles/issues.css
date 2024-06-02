@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: white;
+}
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid #931420;
+    background-color: #fffded;
+}
+header {
+    padding: 1.5em 0 2em 0;
+    background-image: -moz-linear-gradient(
+        30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
+    background-image: -webkit-linear-gradient(
+        30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
+    background-image: -o-linear-gradient(
+        30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
+    background-image: linear-gradient(
+        30deg, #ff7e5f 0%, #feb47b 30%, #ff7e5f 50%, #fca5a5 80%, #ff7e5f 100%);
+}
+header h1 {
+    font-size: 200%;
+    color: #ffffff;
+}
+header h2 {
+    font-size: 175%;
+    color: #ffffff;
+}
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+}
+header img {
+    float: left;
+    padding: 0 30px;
+}
+#nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#nav_menu ul li {
+    float: left;
+}
+#nav_menu ul li a {
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+}
+#nav_menu a.current {
+    color: yellow;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li {
+    float: none;
+}
+#nav_menu ul li:hover > ul {
+    display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.slicknav_menu {
+    display: none;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+.content {
+    flex: 2;
+    padding: 20px;
+}
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.sidebar h2 {
+    margin-top: 0;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
